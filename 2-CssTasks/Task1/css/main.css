@@ -1,0 +1,26 @@
+section {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+}
+
+.item {
+    float: left;
+    width: 20%;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
+    background-color: #F9F9FD;
+}
+
+img {
+    width: 50%;
+    height: 30%;
+    text-align: center;
+}
