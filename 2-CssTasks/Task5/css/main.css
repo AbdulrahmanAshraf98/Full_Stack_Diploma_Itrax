@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: #1A1A1A;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.section-head {
+    text-align: center;
+}
+
+.section-head h3 {
+    color: #48B54B;
+}
+
+.section-head p {
+    color: #fff;
+    font-size: 36px;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.message-section {
+    float: left;
+    width: 40%;
+    height: 600px;
+    background-color: #151515;
+    margin-left: 250px;
+    opacity: ;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.container h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.container form {
+    width: 90%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.container form input {
+    color: #2D3A31;
+    border: none;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+.container form hr {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container form textarea {
+    width: 100%;
+    margin-top: 10px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.container form button {
+    background-color: #48B54B;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+.contect-info {
+    float: left;
+    width: 20%;
+    height: 605px;
+    background-color: #121212;
+    padding-left: 20px;
+}
+
+.contect-info h3 {
+    padding-top: 5px;
+}
+
+.contect-info .info {
+    padding-top: 15px;
+    color: #fff;
+}
+
+.contect-info .info h4 {
+    color: #48B54B;
+}
+
+.contect-info .social {
+    color: #fff;
+    width: 100%;
+}
+
+.contect-info ul {
+    text-align: left;
+}
+
+.contect-info ul li {
+    display: inline;
+}
