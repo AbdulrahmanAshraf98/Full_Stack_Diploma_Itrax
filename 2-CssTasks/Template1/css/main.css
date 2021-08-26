@@ -117,12 +117,14 @@ header {
     -o-border-radius: 25px;
     background-color: transparent;
     margin-left: 10px;
+    
 }
 
 .section2 .section-content .content .button-items button:hover {
     background-color: #8779f6;
     color: #fff;
     outline: none;
+    transition: 0.5s all;
 }
 
 .section2 .section-content .content h3 {
