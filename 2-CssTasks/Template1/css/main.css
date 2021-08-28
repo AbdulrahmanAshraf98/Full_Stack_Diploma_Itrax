@@ -29,10 +29,12 @@ header {
 
 .overlay .content h1 {
     font-size: 35px;
+    padding-bottom: 30px;
 }
 
 .overlay .content p {
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .overlay button {
@@ -66,6 +68,7 @@ header {
 
 .section2 .section-info h2 {
     font-size: 30px;
+    padding-bottom: 2%;
 }
 
 .section2 .section-info p {
@@ -208,6 +211,7 @@ header {
 .section4 .section-info h2 {
     font-size: 30px;
     font-weight: bold;
+    padding-bottom: 2%;
 }
 
 .section4 .section-info p {
@@ -335,4 +339,261 @@ header {
     width: 100%;
     height: 100%;
     font-size: 20px;
+}
+
+.section6 {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.section6 .section-info {
+    text-align: center;
+    height: 30%;
+    padding-top: 3%;
+    color: #1c1c1c;
+}
+
+.section6 .section-info h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.section6 .section-info p {
+    font-size: 20px;
+    color: #8d7b7d;
+}
+
+.section6 .container {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.section6 .container .section-form {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.section6 .container .section-form form {
+    width: 100%;
+    height: 100%;
+}
+
+.section6 .container .section-form form input {
+    width: 40%;
+    float: left;
+    margin: 20px 32px;
+    padding: 20px;
+    border: 2px solid #d7d8e2;
+    font-size: 20px;
+}
+
+.section6 .container .section-form form textarea {
+    margin: 5px 30px;
+    width: 90.2%;
+    height: 50%;
+    border: 2px solid #d7d8e2;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.section6 .container .section-form form button {
+    float: right;
+    width: 23%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #efeeee;
+    border-radius: 25px;
+    outline: none;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: transparent;
+    color: #8c71f6;
+    margin-top: 10px;
+    margin-right: 35px;
+}
+
+.section7 {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background-color: #F9C63B;
+}
+
+.section7 .section-info {
+    text-align: center;
+    height: 30%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    color: #fff;
+}
+
+.section7 .section-info h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.section7 .container {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.section7 .item {
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section7 .container .item input {
+    width: 90%;
+    float: left;
+    margin: 20px 32px;
+    padding: 20px;
+    border: 2px solid #d7d8e2;
+    border-radius: 40px;
+    outline: none;
+    font-size: 20px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.section7 .container .item button {
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    right: 0px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #efeeee;
+    border-radius: 25px;
+    outline: none;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: transparent;
+    color: #8c71f6;
+    margin-top: 10px;
+    margin-right: 35px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #4e5375;
+    color: #fff;
+}
+
+footer .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer .container .items {
+    width: 100%;
+    height: 100%;
+}
+
+footer .container .items .item-row1 {
+    width: 100%;
+    height: 70%;
+}
+
+footer .container .items .item-row2 {
+    width: 100%;
+    height: 30%;
+    =color: #fff;
+}
+
+footer .container .items .item-row1 .col {
+    width: 23%;
+    height: 100%;
+    float: left;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+footer .container .items .item-row1 .col ul {
+    width: 100%;
+    height: 100%;
+}
+
+footer .container .items .item-row1 .col ul h2 {
+    margin: 15px 0px;
+}
+
+footer .container .items .item-row1 .col ul li {
+    width: 92%;
+    list-style: none;
+    padding-bottom: 20px;
+    height: 10%;
+}
+
+footer .container .items .item-row1 .col ul li .img-item .img {
+    width: 22%;
+    float: left;
+}
+
+footer .container .items .item-row1 .col ul li .img-item .img img {
+    width: 90%;
+}
+
+footer .container .items .item-row2 {
+    width: 100%;
+}
+
+footer .container .items .item-row2 .copyright {
+    width: 60%;
+    float: left;
+}
+
+footer .container .items .item-row2 .copyright p {
+    font-size: 20px;
+}
+
+footer .container .items .item-row2 .copyright p span {
+    font-size: 30px;
+    color: #f8274a;
+}
+
+footer .container .items .item-row2 .social {
+    width: 40%;
+    float: left;
+}
+
+footer .container .items .item-row2 .social ul {
+    list-style: none;
+    padding-right: 45px;
+    float: right;
+}
+
+footer .container .items .item-row2 .social li {
+    width: 20%;
+    float: left;
+    padding-right: 8px;
+}
+
+footer .container .items .item-row2 .social li button {
+    border: 1px solid rgb(27, 27, 27);
+    background-color: transparent
+}
+
+footer .container .items .item-row2 .social li button img {
+    width: 100%;
+    height: 20px;
 }
