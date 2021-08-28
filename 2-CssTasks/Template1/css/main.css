@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
 }
 
@@ -57,7 +57,6 @@ header {
     width: 100%;
     height: 842px;
     background-color: #f2f5f7;
-    margin-bottom: 10px;
 }
 
 .section2 .section-info {
@@ -117,7 +116,6 @@ header {
     -o-border-radius: 25px;
     background-color: transparent;
     margin-left: 10px;
-    
 }
 
 .section2 .section-content .content .button-items button:hover {
@@ -130,6 +128,7 @@ header {
 .section2 .section-content .content h3 {
     font-size: 25px;
     margin-left: 100px;
+    padding-bottom: 20px;
 }
 
 .section2 .section-content p {
@@ -137,4 +136,203 @@ header {
     font-size: 18px;
     color: #bcbcbb;
     margin-left: 100px;
+}
+
+/* section three */
+
+.section3 {
+    padding-top: 3%;
+    width: 100%;
+    height: 500px;
+    background-color: #f3487f;
+}
+
+.section3 .container {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.section3 .container .items {
+    width: 100%;
+    height: 80%;
+}
+
+.section3 .container .items .item-type1 {
+    width: 25%;
+    height: 50%;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+    padding-top: 52px;
+}
+
+.section3 .container .items .item-type1 img {
+    padding-top: 10px;
+}
+
+.section3 .container .items .item-type2 {
+    width: 20%;
+    height: 50%;
+    background-color: #6f7598;
+    text-align: center;
+    float: left;
+    padding: 26px 30px;
+}
+
+.section3 .container .items .item-type2 p {
+    color: #dacecd;
+    padding-top: 15px;
+}
+
+/* section4  */
+
+.section4 {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.section4 .container {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto
+}
+
+.section4 .section-info {
+    text-align: center;
+    height: 30%;
+    padding-top: 3%;
+}
+
+.section4 .section-info h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section4 .section-info p {
+    color: #848484;
+}
+
+.section4 .container .items {
+    width: 100%;
+    height: 80%;
+}
+
+.section4 .container .items .item {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.section4 .container .items .item .img {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.section4 .container .items .item .item-content {
+    padding-top: 10%;
+}
+
+.section4 .container .items .item-content h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.section4 .container .items .item-content h3 {
+    font-size: 18px;
+    color: #464646;
+    padding-bottom: 20px;
+}
+
+.section4 .container .items .item-content p {
+    font-size: 16px;
+    color: #848484;
+    padding-bottom: 20px;
+}
+
+.section4 .container .items .item-content button {
+    width: 23%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #efeeee;
+    border-radius: 25px;
+    outline: none;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: transparent;
+    margin-left: 10px;
+    color: #8c71f6;
+}
+
+/* section5 */
+
+.section5 {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    background-color: #5dd1e3;
+}
+
+.section5 .section-info {
+    text-align: center;
+    height: 30%;
+    padding-top: 3%;
+    color: #fff;
+}
+
+.section5 .section-info h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.section5 .section-info p {
+    font-size: 20px;
+}
+
+.section5 .container {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.section5 .container .items {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section5 .container .items .img {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.section5 .container .items .img img {
+    width: 100%;
+}
+
+.section5 .container .items .item-content {
+    width: 25%;
+    float: left;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.section5 .container .items .item-content h3 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.section5 .container .items .item-content p {
+    color: #9e9e9e;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
 }
