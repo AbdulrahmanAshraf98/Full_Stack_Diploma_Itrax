@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 670px;
+    background-image: url("../img/business-main.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .1);
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, .15)
+}
+
+nav .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav .container .icon {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 5px;
+}
+
+nav .container .icon img {
+    margin-top: 20px;
+    width: auto;
+    height: 38px;
+}
+
+nav .container .items {
+    width: 48%;
+    float: right;
+    height: 100%;
+    padding-right: 15px;
+}
+
+nav .container .items ul {
+    list-style-type: none;
+    height: 100%;
+}
+
+nav .container .items ul li {
+    height: 100%;
+    width: 15%;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+nav .container .items ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header .overlay .content {
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+
+header .overlay .content .content-info {
+    width: 80%;
+    margin: 100px auto;
+}
+
+header .overlay .content .content-info h1 {
+    width: 100%;
+    font-size: 76px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+header .overlay .content .content-info p {
+    width: 50%;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Open Sans', arial;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+header .overlay .content .content-info .buttons {
+    width: 50%;
+    margin: 30px auto;
+}
+
+header .overlay .content .content-info .buttons button {
+    width: 40%;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: 'Open Sans', arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+header .overlay .content .content-info .buttons .bt1 {
+    border: 1px solid transparent;
+    background-color: #4274b7;
+}
+
+header .overlay .content .content-info .buttons .bt2 {
+    border: 1px solid transparent;
+    background-color: #fff;
+    color: #000;
+}
+
+header .overlay .content .content-info .scrollbutoon {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .overlay .content .content-info .scrollbutoon .parent {
+    position: relative;
+    margin: 0 auto;
+    width: 32px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+
+header .overlay .content .content-info .scrollbutoon .parent .child {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    top: 3px;
+    right: 25%;
+    left: 25%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: scroll 1s infinite;
+    -webkit-animation: scroll 2s infinite linear;
+}
+
+@keyframes scroll {
+    0% {
+        top: 5px;
+    }
+    50% {
+        opacity: 0;
+        top: 35px;
+    }
+    100% {
+        opacity: 0;
+        top: 5px;
+    }
+}
