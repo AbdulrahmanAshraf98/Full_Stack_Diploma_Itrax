@@ -2,12 +2,8 @@
     margin: 0;
 }
 
-header {
-    width: 100%;
-    height: 670px;
-    background-image: url("../img/business-main.jpg");
-    background-size: cover;
-    overflow: hidden;
+.clearfix {
+    clear: both;
 }
 
 .overlay {
@@ -16,9 +12,12 @@ header {
 }
 
 nav {
+    background-color: rgba(0, 0, 0, .1);
     width: 100%;
-    height: 80px;
-    border-bottom: 1px solid rgba(255, 255, 255, .15)
+    height: 99px;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+    position: fixed;
+    z-index: 11111;
 }
 
 nav .container {
@@ -68,15 +67,26 @@ nav .container .items ul li a {
     color: white;
 }
 
+header {
+    width: 100%;
+    height: 670px;
+    background-image: url("../img/business-main.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
 header .overlay .content {
     width: 100%;
     height: 100%;
-    text-align: center
+    text-align: center;
+    margin-top: 50px;
 }
 
 header .overlay .content .content-info {
     width: 80%;
     margin: 100px auto;
+    padding: 7% 0;
 }
 
 header .overlay .content .content-info h1 {
