@@ -187,8 +187,8 @@ header .overlay .content .content-info .scrollbutoon .parent .child {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    animation: scroll 1s infinite;
-    -webkit-animation: scroll 2s infinite linear;
+    animation: scroll 2s infinite;
+    -webkit-animation: scroll 2s infinite;
 }
 
 @keyframes scroll {
@@ -808,9 +808,20 @@ footer .bottom-footer .container .row .right .icon a {
     color: #535353;
 }
 
-footer .bottom-footer .container .row .right .icon:hover {
+footer .bottom-footer .container .row .right .facebook:hover {
     background: #3b5998!important;
-    color: #fff;
+}
+
+footer .bottom-footer .container .row .right .google:hover {
+    background: #dd4b39
+}
+
+footer .bottom-footer .container .row .right .linkedin:hover {
+    background: #007bb5;
+}
+
+footer .bottom-footer .container .row .right .twitter:hover {
+    background: #00aced !important;
 }
 
 footer .bottom-footer .container .row .right .icon:hover a {
