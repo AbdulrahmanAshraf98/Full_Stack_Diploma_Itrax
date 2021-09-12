@@ -709,7 +709,7 @@ footer .main-footer .container {
     margin: auto;
 }
 
-footer .main-footer .container .row-1 {
+footer .main-footer .container .row {
     width: 100%;
     height: 100%;
     display: flex;
@@ -718,12 +718,12 @@ footer .main-footer .container .row-1 {
     color: #58606b;
 }
 
-footer .main-footer .container .row-1 .footer-info {
+footer .main-footer .container .row .footer-info {
     flex: 25%;
     max-width: 25%;
 }
 
-footer .main-footer .container .row-1 .footer-info h4 {
+footer .main-footer .container .row .footer-info h4 {
     font-size: 17px;
     color: #fff;
     margin-bottom: 25px;
@@ -731,26 +731,34 @@ footer .main-footer .container .row-1 .footer-info h4 {
     font-weight: 500;
 }
 
-footer .main-footer .container .row-1 .footer-info ul {
+footer .main-footer .container .row .footer-info .desc p {
+    width: 90%;
+    height: 100%;
+}
+
+footer .main-footer .container .row .footer-info .desc ul {
     list-style-type: none;
 }
 
-footer .main-footer .container .row-1 .footer-info ul li {
+footer .main-footer .container .row .footer-info .desc ul li {
     margin-left: -40px;
     margin-bottom: 10px;
     line-height: 1.4;
+    display: flex;
+    align-items: baseline;
 }
 
-footer .main-footer .container .row-1 .footer-info ul li i {
+footer .main-footer .container .row .footer-info .desc ul li i {
     font-size: 12px;
+    padding-right: 5px;
 }
 
-footer .main-footer .container .row-1 .footer-info ul li a {
+footer .main-footer .container .row .footer-info .desc ul li a {
     text-decoration: none;
     color: #58606b;
 }
 
-footer .main-footer .container .row-1 .footer-info ul li a:hover {
+footer .main-footer .container .row .footer-info .desc ul li a:hover {
     color: #4274b7;
 }
 
